@@ -1,0 +1,481 @@
+.container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Hero Section */
+.heroSection {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+  color: white;
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+}
+.firmLogo {
+  height: 80px;
+  width: auto;
+  margin-bottom: 0.70rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(1, 1, 1, 1.15);
+  display: block;
+  margin-left: auto;
+  margin-right: auto ;
+}
+
+.heroContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.heroDescription {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 20px;
+}
+
+.primaryBtn {
+  background: #ffffff;
+  color: #1e3a8a;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primaryBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.secondaryBtn {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.secondaryBtn:hover {
+  background: white;
+  color: #1e3a8a;
+}
+
+.heroImage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  flex-direction: column;
+}
+
+.indiaMap {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  opacity: 0.85;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mapShape {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px 20px 60px 40px;
+  position: relative;
+}
+
+
+/* About Section */
+.aboutSection {
+  padding: 80px 0;
+  background: #f8fafc;
+}
+
+.aboutContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.aboutLeft {
+  background: white;
+  padding: 60px;
+  border-radius: 12px 0 0 12px;
+}
+
+.aboutLeft h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+.aboutLeft p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #64748b;
+}
+
+.readMoreBtn {
+  background: none;
+  border: none;
+  color: #3b82f6;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0;
+}
+
+.aboutRight {
+  background: #1e3a8a;
+  color: white;
+  padding: 60px;
+  border-radius: 0 12px 12px 0;
+}
+
+.aboutRight h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.partnershipText {
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.serviceDetails div {
+  padding: 8px 0;
+  opacity: 0.9;
+}
+
+/* Services Section */
+.servicesSection {
+  padding: 80px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.servicesSection h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  color: #1e3a8a;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.serviceCard {
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.serviceCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.serviceIcon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #3b82f6;
+}
+
+.serviceCard h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #1e3a8a;
+}
+
+.serviceCard p {
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+/* Industries Section */
+.industriesSection {
+  padding: 80px 0;
+  background: #f8fafc;
+}
+
+.industriesSection h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  color: #1e3a8a;
+}
+
+.industriesGrid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+}
+
+.industryCard {
+  text-align: center;
+  padding: 30px 20px;
+  background: white;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.industryCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.industryIcon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.industryCard p {
+  font-weight: 600;
+  color: #1e3a8a;
+}
+
+/* Partnerships Section */
+.partnershipsSection {
+  padding: 80px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.partnershipsSection h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  color: #1e3a8a;
+}
+
+.partnersGrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+  align-items: center;
+}
+
+.partnerLogo {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #64748b;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.partnerLogo:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Section */
+.footerSection {
+  background: #1e3a8a;
+  color: white;
+  padding: 80px 0;
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.footerContent h3 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+.testimonial {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.quoteIcon {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #60a5fa;
+}
+
+.testimonial p {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.caseStudyBtn {
+  background: #60a5fa;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.whyChooseUs ul {
+  list-style: none;
+  padding: 0;
+}
+
+.whyChooseUs li {
+  padding: 10px 0;
+  position: relative;
+  padding-left: 25px;
+}
+
+.whyChooseUs li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #60a5fa;
+  font-weight: bold;
+}
+
+/* src/components/Partnerships.module.css */
+
+.partnershipsSection {
+  background: #1e293b; /* dark navy */
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.partnershipsSection h2 {
+  color: #f1f5f9;
+  font-size: 2.2rem;
+  margin-bottom: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.partnersGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 30px;
+  align-items: center;
+  justify-items: center;
+}
+
+.partnerLogo img {
+  max-width: 100px;
+  max-height: 60px;
+  object-fit: contain;
+  filter: grayscale(100%) brightness(0.8);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.partnerLogo img:hover {
+  transform: scale(1.1);
+  filter: none;
+}
+
+/* Logo Animation */
+@keyframes logoFadeZoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.firmLogo {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  animation: logoFadeZoom 1.5s ease-out;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heroContent,
+  .aboutContent,
+  .footerContent {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .servicesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .industriesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .partnersGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .heroTitle {
+    font-size: 2rem;
+  }
+  
+  .aboutLeft,
+  .aboutRight {
+    padding: 40px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .servicesGrid,
+  .industriesGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .partnersGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .heroButtons {
+    flex-direction: column;
+  }
+}
